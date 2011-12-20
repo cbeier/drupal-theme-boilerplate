@@ -4,6 +4,34 @@
 	   Shared Styles
 	----------------------------------------- */
 
+	/* Skiplinks */
+	.skip {
+		position: absolute;
+		top: -32768px;
+		left: -32768px; /* LTR */
+	}
+	.skip:focus, .skip:active {
+		position: static;
+		top: 0;
+		left: 0;
+	}
+	#skiplinks {
+		position: absolute;
+		top: 0px;
+		left: -32768px;
+		z-index: 1000;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	#skiplinks .skip:focus,
+	#skiplinks .skip:active {
+		left: 32768px;
+		outline: 0 none;
+		position: absolute;
+		width: 100%;
+	}
 
 
 	/* -----------------------------------------
