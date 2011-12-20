@@ -3,6 +3,12 @@ description = A Boilerplate for Drupal Theme
 core = 7.x
 engine = phptemplate
 
+; Parent/Base Theme
+; @see http://drupal.org/node/225125
+;
+; base theme = themeName
+
+
 ; REGIONS
 ;--------------------------------------------------------------------------------------
 ; Required
