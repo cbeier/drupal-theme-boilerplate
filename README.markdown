@@ -1,11 +1,11 @@
 Drupal Theme Boilerplate
 ========================
 
-A simple boilerplate for a Drupal Theme that includes CSS, JS files by template.php.
+A simple boilerplate for a Drupal Theme (7.x) that includes CSS, JS files by template.php.
 It can be used as a starting point for own, new drupal themes.
 
-Installation
-============
+Installation (for Drupal 7.x)
+=============================
 1. Copy the folder into your sites/all/themes directory.
 2. Rename the folder to your theme name
 3. Search and replace in the entire folder the string "drupal_theme_boilerplate" with your theme name.
