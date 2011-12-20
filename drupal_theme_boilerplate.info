@@ -18,7 +18,7 @@ regions[page_bottom] = Page Bottom
 
 ; Core
 ;regions[header] = Header
-regions[highlight] = Highlight
+regions[highlighted] = Highlight
 regions[help] = Help
 regions[sidebar_first] = Sidebar First
 regions[sidebar_second] = Sidebar Second
