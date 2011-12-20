@@ -1,0 +1,28 @@
+@media print {
+	/* Change fonr size unit to [pt] - avoiding problems with [px] unit in Gecko based browsers */
+	body { font-size: 10pt; }
+
+	/* Hide unneeded container of the screenlayout in pixel layout */
+	.navigation,
+	.block-nice-menus { display: none; }
+
+	/* Avoid page breaks right after headings */
+	h1, h2, h3, h4, h5, h6 { page-break-after: avoid; }
+
+
+	/* Optional output of acronyms and abbreviations */
+	/*
+		abbr[title]:after,
+		acronym[title]:after { content: '(' attr(title) ')'; }
+	*/
+
+	/* Optional URL output of hyperlinks in print layout */
+	/*
+		a[href]:after {
+			content: ' <URL:' attr(href) '>';
+			color: #444;
+			background: inherit;
+			font-style: italic;
+		}
+	*/
+}

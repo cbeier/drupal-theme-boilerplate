@@ -1,0 +1,41 @@
+name = Drupal Theme Boilerplate
+description = A Boilerplate for Drupal Theme
+core = 7.x
+engine = phptemplate
+
+; REGIONS
+;--------------------------------------------------------------------------------------
+; Required
+regions[page_top] = Page Top
+regions[content] = Content
+regions[page_bottom] = Page Bottom
+
+; Core
+;regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+
+; Custom
+
+
+; STYLESHEETS
+;--------------------------------------------------------------------------------------
+; It is better to add theme stylesheet via the drupal_add_css() function in the template.php
+
+; FEATURES
+;--------------------------------------------------------------------------------------
+; Supported
+features[] = favicon
+features[] = name
+features[] = slogan
+features[] = logo
+features[] = main_menu
+
+; Unsupported
+featured[] = secondary_menu
+featured[] = node_user_picture
+featured[] = comment_user_picture
+featured[] = comment_user_verification
